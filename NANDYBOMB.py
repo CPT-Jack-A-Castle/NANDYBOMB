@@ -412,7 +412,7 @@ def start(target, counter, delay, ch, cc):
             api = random.choice(ch)
         except Exception:
             if cc == "91":
-                print('Sorry All APIs Have Expired Please Update NANDYBOMB')
+                print('Sorry All APIs Have Expired Please Update bomber')
                 input('Press Enter To Exit...')
                 exit()
             else:
