@@ -34,7 +34,7 @@ if [ $ch -eq 1 ];then
 clear
 echo -e "\e[1;32m"
 rm *.xxx >/dev/null 2>&1
-python3 NANDY-BOMB.py
+python3 NANDYBOMB.py
 rm *.xxx >/dev/null 2>&1
 exit 0
 elif [ $ch -eq 2 ];then
@@ -47,7 +47,7 @@ exit 0
 elif [ $ch -eq 3 ];then
 clear
 echo -e "\e[1;31m"
-figlet NANDY-BOMB
+figlet NANDYBOMB
 echo -e "\e[1;34m Created By \e[1;32m"
 toilet -f mono12 -F border NandyDark
 echo " "
