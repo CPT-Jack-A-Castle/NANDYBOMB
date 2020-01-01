@@ -412,7 +412,7 @@ def start(target, counter, delay, ch, cc):
             api = random.choice(ch)
         except Exception:
             if cc == "91":
-                print('Sorry All APIs Have Expired Please Update TBomb')
+                print('Sorry All APIs Have Expired Please Update NANDYBOMB')
                 input('Press Enter To Exit...')
                 exit()
             else:
@@ -582,7 +582,7 @@ if nm == 0:
     print("==================================================================")
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
     os.system('rm *.xxx* > /dev/null 2>&1')
-    print("\n\nStarting Bomb....")
+    print("\n\nStarting NANDYBOMB....")
     for i in range(nt):
         t[i] = threading.Thread(target=infinite, args=(pn, dl, ch, maxlim,))
         t[i].daemon = True
