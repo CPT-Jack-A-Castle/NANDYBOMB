@@ -231,8 +231,6 @@ country_codes = {
 
 def banner():
     cprint("""
-
-
         )           ) (        )   (            (        ) 
  ( /(  (     ( /( )\ )  ( /(   )\ )   (     )\ )  ( /( 
  )\()) )\    )\()|()/(  )\()) (()/(   )\   (()/(  )\())
@@ -241,8 +239,6 @@ def banner():
 | \| (_)_\(_) \| ||   \ \ / /  |   \(_)_\(_) _ \| |/ / 
 | .` |/ _ \ | .` || |) \ V /   | |) |/ _ \ |   /|' <  
 |_|\_/_/ \_\|_|\_||___/ |_|    |___//_/ \_\|_|_\|_|\_\ 
-
-
                                          """, 'green')
     print()
 
@@ -412,7 +408,7 @@ def start(target, counter, delay, ch, cc):
             api = random.choice(ch)
         except Exception:
             if cc == "91":
-                print('Sorry All APIs Have Expired Please Update bomber')
+                print('Sorry All APIs Have Expired Please Update TBomb')
                 input('Press Enter To Exit...')
                 exit()
             else:
@@ -437,10 +433,10 @@ def start(target, counter, delay, ch, cc):
         print("                BOMBING in progress, please wait !!               ")
         print("     Please keep your data connection active during bombing !!    ")
         print("==================================================================")
-        print("             VICTIM Number                 : +" + str(cc) + " ", target)
-        print("             Number of BOMBS               : ", requested)
-        print("             Successful BOMBED             : ", success)
-        print("             We Failed to BOMB             : ", failed)
+        print("             Fucking Bitch Number          : +" + str(cc) + " ", target)
+        print("             Number of fucks               : ", requested)
+        print("             Successful Fucked             : ", success)
+        print("             We Failed to fuck             : ", failed)
         print("==================================================================")
 
         try:
@@ -505,10 +501,10 @@ try:
 except Exception:
     type = 0
 if type == 1:
-    nm = int(input("Enter Number of Calls To Send(Maximum 9999999999999999): "))
+    nm = int(input("Enter Number of Calls To Send(Maximum 100): "))
     if nm > 15:
         print("\t\tYou Have Entered " + str(nm) +
-              ".\n\tNormalizing Value To 9999999999999999")
+              ".\n\tNormalizing Value To 100")
         nm = 15
     dl = float(input("Enter Delay time (in seconds) [Recommended 5 sec ] : "))
 elif type == 0:
@@ -522,9 +518,9 @@ elif type == 0:
             input("Enter Delay time (in seconds) [Recommended 5 sec ] : "))
 maxlim = 0
 if cc == "91":
-    maxlim = 99999999999999999999999999999999999999999999999999999999999999999
+    maxlim = 5000000000000000000000
 else:
-    maxlim = 99999999999999999999999999999999999999999999999999999999999999999
+    maxlim = 5000000000000000000000
 if nm > maxlim:
     print('\n\n\tSorry Due To Misuse Of This Script We Only Provide ' +
           str(maxlim) + ' SMS At Once...\n\n')
@@ -533,7 +529,7 @@ if nm > maxlim:
 if not cc.strip() == "91":
     if type == 1:
         print(
-            "'\t\tYou can't BOMB anyone out of the INDIA!!!!")
+            "'\t\tYou can't Fuck anyone out of the INDIA!!!!")
         print()
         input('Press Enter To Exit....')
         print('\n\n')
@@ -582,7 +578,7 @@ if nm == 0:
     print("==================================================================")
     input('\n\nPress CTRL+Z To STOP Bomber... \nPress Enter To Start Bomber...\n')
     os.system('rm *.xxx* > /dev/null 2>&1')
-    print("\n\nStarting NANDYBOMB....")
+    print("\n\nStarting Bomb....")
     for i in range(nt):
         t[i] = threading.Thread(target=infinite, args=(pn, dl, ch, maxlim,))
         t[i].daemon = True
