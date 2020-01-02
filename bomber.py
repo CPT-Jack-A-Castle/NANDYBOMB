@@ -433,10 +433,10 @@ def start(target, counter, delay, ch, cc):
         print("                BOMBING in progress, please wait !!               ")
         print("     Please keep your data connection active during bombing !!    ")
         print("==================================================================")
-        print("             Fucking Bitch Number          : +" + str(cc) + " ", target)
-        print("             Number of fucks               : ", requested)
-        print("             Successful Fucked             : ", success)
-        print("             We Failed to fuck             : ", failed)
+        print("             VICTIM Number                 : +" + str(cc) + " ", target)
+        print("             Number of BOMBS               : ", requested)
+        print("             Successful BOMBED             : ", success)
+        print("             We Failed to BOMB             : ", failed)
         print("==================================================================")
 
         try:
