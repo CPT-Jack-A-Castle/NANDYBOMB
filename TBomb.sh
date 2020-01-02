@@ -11,7 +11,7 @@ echo .
 apt install figlet toilet python curl -y
 apt install python3-pip
 pip install -r requirements.txt
-echo This Script Was EDITED by NandyDark
+echo This Script Was EDITED by nandydark
 echo Requirements Installed....
 echo Press Enter To Continue...
 read upd
@@ -21,9 +21,9 @@ do
 rm *.xxx >/dev/null 2>&1
 clear
 echo -e "\e[1;31m"
-figlet NANDYBOMB
+figlet Fuck this world with
 echo -e "\e[1;34m \e[1;32m"
-toilet -f mono12 -F border NandyDark
+toilet -f mono12 -F border nandydark
 echo " "
 echo " "
 echo "Press 1 To  Start SMS Bomber "
@@ -47,9 +47,9 @@ exit 0
 elif [ $ch -eq 3 ];then
 clear
 echo -e "\e[1;31m"
-figlet NANDYBOMB
+figlet TBomb
 echo -e "\e[1;34m Created By \e[1;32m"
-toilet -f mono12 -F border NandyDark
+toilet -f mono12 -F border nandydark
 echo " "
 exit 0
 else
