@@ -13,4 +13,4 @@ cd NANDY-BOMB
 
 ls
 
-sh NANDY-BOMB.sh
+sh Tbomb.sh
