@@ -7,9 +7,9 @@ This is a SMS And Call Bomber For Linux And Termux which has maximum limit FOR S
 
 pkg install git
 
-git clone https://github.com/nandydark/NANDY-BOMB.git
+git clone https://github.com/nandydark/NANDYBOMB.git
 
-cd NANDY-BOMB
+cd NANDYBOMB
 
 ls
 
